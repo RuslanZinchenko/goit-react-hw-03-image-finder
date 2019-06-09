@@ -1,0 +1,23 @@
+.loadMore {
+  padding: 8px 16px;
+  border-radius: 3px;
+  background-color: #3884ff;
+  transition: all 200ms ease;
+  text-align: center;
+  display: block;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  min-width: 180px;
+  margin: 20px auto 20px auto;
+}
+
+.loadMore:hover,
+.loadMore:focus {
+  background-color: #1f65d6;
+}

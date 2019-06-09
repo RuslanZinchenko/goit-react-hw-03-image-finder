@@ -1,0 +1,43 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+  width: 100%;
+}
+
+.closeModal {
+  position: absolute;
+  border: none;
+  outline: none;
+  top: 10px;
+  right: 10px;
+  font: inherit;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 100%;
+  transition: background-color 200ms linear, opacity 200ms linear;
+}
+
+.closeModal:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.closeModal i {
+  padding-top: 4px;
+  font-size: 25px;
+}
