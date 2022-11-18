@@ -9,7 +9,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-spinkit": "^3.0.0"
   },
   "homepage": "https://ruslanzinchenko.github.io/goit-react-hw-03-image-finder/",
